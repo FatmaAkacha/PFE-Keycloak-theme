@@ -48,7 +48,6 @@
 
       <button type="submit" style="width: 100%; margin-top: 1rem; padding: 0.75rem; border: none; background-color: #5E81AC; color: #fff; border-radius: 10px; cursor: pointer; font-size: 1rem;">Login</button>
 
-      <a href="${url.loginResetCredentialsUrl}" style="display: block; text-align: center; margin-top: 0.5rem; color: #666; font-size: 0.9rem; text-decoration: none;">Forgot Password?</a>
     </form>
 
     <div style="text-align: center; font-size: 0.85rem; margin-top: 1rem;">
