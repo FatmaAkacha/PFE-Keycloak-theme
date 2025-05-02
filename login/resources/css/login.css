@@ -1,29 +1,111 @@
-body, html {
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100%;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
+    background: url('images/logo.png') no-repeat center center;
+    background-size: cover;
+  }
+  
 
-body.layout-light {
-    --bg-color: #f4f6f9;
-    --panel-bg: #ffffff;
-    --text-color: #2e2e2e;
-    --input-bg: #fff;
-    --input-border: #ccc;
-    --button-bg: #4f46e5;
-    --button-text: #fff;
-}
+  
+  
 
-body.layout-dark {
-    --bg-color: #1f1f1f;
-    --panel-bg: #2b2b2b;
-    --text-color: #f1f1f1;
-    --input-bg: #3a3a3a;
-    --input-border: #555;
-    --button-bg: #6366f1;
-    --button-text: #fff;
-}
+  
+
+  
+  .input-password-wrapper {
+    position: relative;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #777;
+  }
+  
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #f3f3f3;
+  }
+  
+  .form-remember {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: #444;
+    margin-top: 0.5rem;
+  }
+  
+  .p-button {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border: none;
+    background-color: #cfc5e8;
+    color: #333;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .p-button:hover {
+    background-color: #b9a8df;
+  }
+  
+  .secondary-button {
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #666;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  
+  .secondary-button:hover {
+    text-decoration: underline;
+  }
+  
+  .register-link {
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+  }
+  
+  .register-link a {
+    color: #6c63ff;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .theme-switch {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .theme-switch .p-button {
+    width: auto;
+    padding: 0.4rem;
+    background-color: transparent;
+    color: #333;
+  }
+  
