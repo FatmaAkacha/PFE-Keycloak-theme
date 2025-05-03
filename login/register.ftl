@@ -29,7 +29,7 @@
         <input id="confirmPassword" name="confirmPassword" type="password" placeholder="Repeat your password" style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #ccc; border-radius: 10px; font-size: 1rem; background-color: #f3f3f3;" />
       </div>
 
-      <button type="submit" style="width: 100%; margin-top: 1rem; padding: 0.75rem; border: none; background-color: #5E81AC; color: #333; border-radius: 10px; cursor: pointer; font-size: 1rem;">Register</button>
+      <button type="submit" style="width: 100%; margin-top: 1rem; padding: 0.75rem; border: none; background-color: #5E81AC; color: #ffffff; border-radius: 10px; cursor: pointer; font-size: 1rem;">Register</button>
     </form>
 
     <div style="text-align: center; font-size: 0.85rem; margin-top: 1rem;">
