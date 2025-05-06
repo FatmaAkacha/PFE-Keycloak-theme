@@ -50,11 +50,6 @@
 
     </form>
 
-    <div style="text-align: center; font-size: 0.85rem; margin-top: 1rem;">
-      <a href="${url.registrationUrl}" style="color: #6c63ff; text-decoration: none;">Create an account</a>
-    </div>
-  </div>
-
   <script src="${url.resourcesPath}/js/toggle-theme.js"></script>
   <link rel="stylesheet" href="${url.resourcesPath}/css/login.css" />
 
