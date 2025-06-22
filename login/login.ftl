@@ -26,27 +26,29 @@
 
     <div style="text-align: center; margin-bottom: 1rem;">
       <img src="${url.resourcesPath}/images/logo.png" alt="Logo" style="display: block; margin: 0 auto 20px; width: 80px;" />
-      <h1 style="text-align: center; font-size: 1.8rem; margin-bottom: 0.5rem;">Sign in</h1>
-      <p>Welcome, please use the form to sign in</p>
+      <h1 style="text-align: center; font-size: 1.8rem; margin-bottom: 0.5rem;">Se connecter</h1>
+      <p>Bienvenue, merci d'utiliser le formulaire pour vous identifier</p>
     </div>
 
     <form id="kc-form-login" action="${url.loginAction}" method="post">
       <div style="margin-bottom: 1.2rem;">
-        <label for="username">Name</label>
-        <input id="username" name="username" type="text" placeholder="Type your name..." style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #ccc; border-radius: 10px; font-size: 1rem; background-color: #f3f3f3;" />
+        <label for="username">Nom</label>
+        <br>
+        <input id="username" name="username" type="text" placeholder="Tapez votre nom..." style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #ccc; border-radius: 10px; font-size: 1rem; background-color: #f3f3f3;" />
       </div>
 
       <div style="margin-bottom: 1.2rem;">
-        <label for="password">Password</label>
-        <input id="password" name="password" type="password" placeholder="Type your password" style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #ccc; border-radius: 10px; font-size: 1rem; background-color: #f3f3f3;" />
+        <label for="password">Mot de passe</label>
+        <br>
+        <input id="password" name="password" type="password" placeholder="Tapez votre mot de passe" style="width: 100%; padding: 0.75rem 1rem; border: 1px solid #ccc; border-radius: 10px; font-size: 1rem; background-color: #f3f3f3;" />
       </div>
 
       <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: #444; margin-top: 0.5rem;">
         <input type="checkbox" id="rememberMe" name="rememberMe" />
-        <label for="rememberMe">Remember me</label>
+        <label for="rememberMe">Se souvenir de moi</label>
       </div>
 
-      <button type="submit" style="width: 100%; margin-top: 1rem; padding: 0.75rem; border: none; background-color: #5E81AC; color: #fff; border-radius: 10px; cursor: pointer; font-size: 1rem;">Login</button>
+      <button type="submit" style="width: 100%; margin-top: 1rem; padding: 0.75rem; border: none; background-color: #5E81AC; color: #fff; border-radius: 10px; cursor: pointer; font-size: 1rem;">Se connecter</button>
 
     </form>
 
